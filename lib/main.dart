@@ -54,9 +54,8 @@ class _MyHomePageState extends State<MyHomePage> {
         body: Container(
           child: GestureDetector(
               onTap: hoverOn,
-              child: AnimatedOpacity(
-                  opacity: defaultOpacity,
-                  duration: Duration(seconds: 1),
+              child: Container(
+                
                   child: Image.asset('images/inhouse1.jpg'))),
         ));
   }
